@@ -18,6 +18,10 @@ header {
     align-items: center;
     background-color: #fff;
     padding: 34px 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 header ul {
@@ -94,9 +98,51 @@ header ul a:hover {
 .wrapper {
     display: flex;
     align-items: flex-start;
+    justify-content: space-between;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
-.wrapper .wrap{
+
+.wrapper .wrap {
     display: flex;
     flex-direction: column;
-    width: 33.333333%;
+    width: calc(33.3333% - 63px);
+    align-items: center;
 }
+
+.wrapper h3 {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 150%;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    width: fit-content;
+    margin-bottom: 55px;
+}
+
+.wrapper h3 span {
+    font-size: 150px;
+    line-height: 1;
+    color: rgba(1, 153, 109, 0.2);
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+}
+
+.wrapper p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #424242;
+}
+
+
+
+
+
+
+
+
+
