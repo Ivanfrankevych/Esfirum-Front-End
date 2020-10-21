@@ -129,7 +129,9 @@ header ul a:hover {
     bottom: 0;
     transform: translateX(-50%);
 }
-
+.second{
+    padding-top: 60px;
+}
 .wrapper p {
     font-family: 'Lato', sans-serif;
     font-weight: 500;
@@ -138,10 +140,28 @@ header ul a:hover {
     color: #424242;
 }
 
+.wrapper img {
+    display: block;
+    width: 100%
+}
+.wrapper .wrap:nth-child(2){
+    padding-top: 120px;
+}
 
-
-
-
+.wrapper.item{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width : 80%;
+    background: #b1b1b1;
+    border-radius: 100%;
+    transform: translateX(-50%)translateY(50%)
+    transition :all .4s case-in-out;
+    
+}
+.wrapper .wrap:hover .icon {
+    transform: 
+}
 
 
 
