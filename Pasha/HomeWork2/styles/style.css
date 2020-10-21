@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #E5E5E5;
+    background: rgba(196, 196, 196, 0.1);
+    padding: 22px 245px;
+    /*
+
+    position: fixed;
+    top: 0;
+    left: 0;
+  
+*/
+
+}
+
+.header_banner {
+    background-image:
+        url(../images/FotoBanner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 737px;
+}
+
+header p {
+    margin-left: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #505050;
+}
+
+header ul {
+    margin-left: 190px;
+    display: flex;
+    list-style: none;
+}
+
+header ul a {
+    padding-right: 60px;
+    color: #717784;
+    font-size: 18px;
+    line-height: 27px;
+    color: #717784;
+    transition: all .4s;
+}
+
+header ul a:hover {
+    color: white;
+}
+
+.batton {
+    display: flex;
+    background: #9B9BCA;
+    padding-left: 67px;
+    padding-right: 67px;
+    padding-top: 16px;
+    padding-bottom: 17px;
+    border-radius: 10px;
+    color: #717784;
+    font-size: 18px;
+    line-height: 27px;
+    color: #717784;
+    text-decoration: none;
+    transition: all .4s;
+}
+
+.batton:hover {
+    color: white;
+}
+
+.banner {
+    width: 100%;
+    height: 621px;
+}
+
+.container {
+    max-width: 1200px;
+    margin-top: 200px;
+    margin-left: 285px;
+}
+
+.container h1 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 56px;
+    line-height: 26px;
+    color: #696A86;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+.container p {
+    padding-top: 40px;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #696A86;
+}
+
+.battonBanner {
+    background: #9B9BCA;
+    padding-left: 67px;
+    padding-right: 67px;
+    padding-top: 16px;
+    padding-bottom: 17px;
+    border-radius: 10px;
+    margin-left: 285px;
+    margin-top: 40px;
+    color: #717784;
+    font-size: 18px;
+    line-height: 27px;
+    color: #717784;
+    text-decoration: none;
+    transition: all .4s;
+}
+
+.battonBanner:hover {
+    color: white;
+}
+
+.feature {
+    margin: 162px auto 0 auto;
+    text-align: center;
+    color: #626780;
+    width: 660px;
+}
+
+.feature h2 {
+    font-weight: 500;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 39px;
+
+}
+
+.feature p {
+    margin-top: 12px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+
+}
+
+.customer_provider {
+    width: 973px;
+    height: 569px;
+    margin: 162px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.customer {
+    width: 442px;
+    height: 569px;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+.provider {
+    width: 442px;
+    height: 569px;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    position: relative;
+}
+
+.customer img {
+    margin: 60px 51px 53px 52px;
+}
+
+.provider img {
+    margin: 60px 51px 53px 52px;
+}
+
+.customer h2 {
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 100%;
+    color: #000000;
+    text-align: center;
+
+}
+
+.provider h2 {
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 100%;
+    color: #000000;
+    text-align: center;
+}
+
+.customer p {
+    width: 346px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 22px;
+    margin-left: 48px;
+}
+
+.provider p {
+    width: 346px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 22px;
+    margin-left: 48px;
+}
+
+.battonCustomer {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    background: #9595C9;
+    width: 234px;
+    height: 60px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 17px;
+    color: #717784;
+    text-decoration: none;
+    transition: all .4s;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%)translateY(50%);
+
+}
+
+.battonCustomer:hover {
+    color: white;
+    background: #F01F35;
+}
+
+.battonProvider {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    background: #9595C9;
+    width: 234px;
+    height: 60px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 17px;
+    color: #717784;
+    text-decoration: none;
+    transition: all .4s;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%)translateY(50%);
+
+}
+
+.battonProvider:hover {
+    color: white;
+    background: #F01F35;
+}
+
+.circle {
+    width: 1040px;
+    height: 1040px;
+    background: #FFEDEF;
+    border-radius: 100%;
+    position: absolute;
+    top: 1180px;
+    left: -415px;
+}
+
+.girl {
+    width: 787px;
+    height: 792px;
+    position: absolute;
+    top: 1800px;
+    left: 0px;
+
+}
+
+.smallCircle {
+    width: 26px;
+    height: 26px;
+    background: #FFEDEF;
+    border-radius: 100%;
+    position: absolute;
+    top: 2020px;
+    left: 565px;
+
+}
+
+.smallCircle1 {
+    width: 26px;
+    height: 26px;
+    background: #FFEDEF;
+    border-radius: 100%;
+    position: absolute;
+    top: 2220px;
+    left: 565px;
+}
+
+.middleCircle {
+    width: 50px;
+    height: 50px;
+    background: #FFEDEF;
+    border-radius: 100%;
+    position: absolute;
+    top: 1920px;
+    left: 645px;
+
+}
+
+.middleCircle1 {
+    width: 50px;
+    height: 50px;
+    background: #FFEDEF;
+    border-radius: 100%;
+    position: absolute;
+    top: 2270px;
+    left: 665px;
+}
+
+.largeCircle {
+    width: 90px;
+    height: 90px;
+    background: #FFEDEF;
+    border-radius: 100%;
+    position: absolute;
+    top: 1845px;
+    left: 765px;
+
+}
+
+.largeCircle1 {
+    width: 90px;
+    height: 90px;
+    background: #FFEDEF;
+    border-radius: 100%;
+    position: absolute;
+    top: 2310px;
+    left: 785px;
+}
