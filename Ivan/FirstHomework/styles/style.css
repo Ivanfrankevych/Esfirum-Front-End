@@ -108,6 +108,7 @@ header ul a:hover {
     flex-direction: column;
     width: calc(33.3333% - 63px);
     align-items: center;
+    position: relative;
 }
 
 .wrapper h3 {
@@ -138,7 +139,47 @@ header ul a:hover {
     font-size: 20px;
     line-height: 150%;
     color: #424242;
+    margin-bottom: 40px;
 }
+.wrapper img{
+    display: block;
+    width: 100%;
+}
+.wrapper .wrap:nth-child(2){
+    padding-top: 120px;
+}
+.wrapper .icon{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 80px;
+    height: 80px;
+    background: #b1b1b1;
+    border-radius: 100%;
+    transform: translateX(-50%) translateY(50%);
+    transition: all .4s ease-in-out;
+}
+.wrapper .wrap:hover .icon{
+    transform: translateX(-50%) translateY(50%) scale(1.5);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .wrapper img {
     display: block;
