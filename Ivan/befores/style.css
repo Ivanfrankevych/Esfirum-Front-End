@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    display: inline-block;
+}
+.container{
+    max-width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.my_section{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 120px;
+}
+
+.my_section .block{
+    width: 48%;
+    text-align: center;
+    padding: 80px 20px;
+    color: #fff;
+    background-color: rgba(0,0,0,.4);
+    background-blend-mode: darken;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    transition: all .4s ease-in;
+}
+.my_section .block:first-child{
+    background-image: url(https://static.scientificamerican.com/sciam/cache/file/4E0744CD-793A-4EF8-B550B54F7F2C4406_source.jpg);
+}
+.my_section .block:last-child{
+    background-image: url(https://therightsofnature.org/wp-content/uploads/2018/01/turkey-3048299_1920-1366x550.jpg);
+}
+.my_section .block::before{
+    content: '';
+    width: calc(100% - 6px);
+    height: calc(100% - 6px);
+    position: absolute;
+    border: 3px solid #827e13;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    transition: all .4s ease-in;
+}
+.my_section .block:hover::before{
+    width: 90%;
+    height: 90%;
+}
+.my_section .block:hover{
+    background-color: rgba(0,0,0,.7);
+}
+
+
+
+
