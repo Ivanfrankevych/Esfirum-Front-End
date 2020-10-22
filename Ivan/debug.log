@@ -2,3 +2,4 @@
 [1021/081610.723:ERROR:directory_reader_win.cc(43)] FindFirstFile: Системе не удается найти указанный путь. (0x3)
 [1021/083008.453:ERROR:directory_reader_win.cc(43)] FindFirstFile: Системе не удается найти указанный путь. (0x3)
 [1021/084334.079:ERROR:file_io.cc(90)] ReadExactly: expected 36, observed 0
+[1021/081632.919:ERROR:directory_reader_win.cc(43)] FindFirstFile: Системе не удается найти указанный путь. (0x3)
