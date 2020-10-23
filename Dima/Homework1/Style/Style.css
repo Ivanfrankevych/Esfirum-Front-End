@@ -12,11 +12,14 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    position: absolute;
-    width: 1600px;
+    width: 100%;
     height: 116px;
     left: 0px;
     top: 0px;
+    padding-left: 245px;
+    padding-right: 242px;
+    background-size: cover;
+    position: fixed;
 }
 
 header ul{
@@ -25,13 +28,21 @@ header ul{
     justify-items: flex-end;
 }
 
-.img_1{
-    padding-left: 245px;
+header ul a{
+    transition: all .4s;
+}
+
+header ul a:hover, header span a:hover{
+    color: antiquewhite;
+}
+
+.logo{
     width: 79px;
     height: 60px;
     left: 245px;
     top: 31px;
     }
+
 header span a{
     width: 126px;
     height: 26px;
@@ -44,7 +55,14 @@ header span a{
     line-height: 26px;
     color: #505050;
     text-decoration: none;
-    margin-left: 29.36px;
+    margin-left: 14px;
+     transition: all .4s;
+}
+
+header div{
+    display: flex;
+    justify-items: center;
+    align-items: center; 
 }
 
 header button{
@@ -53,8 +71,8 @@ header button{
     left: 1124px;
     top: 31px;
     border-radius: 10px;
-    background: #9B9BCA;
-    margin-right: 242px;
+    background: #4C4C81;
+    border: none;
 }
 
 header button span{
@@ -84,7 +102,7 @@ a button span{
     color: #FFFFFF;
     }
 
-    header img{
+header img{
     width: 79px;
     height: 60px;
     left: 245px;
@@ -102,6 +120,13 @@ a button span{
     padding-left: 58px;
     }
 
+section{
+    display: flex;
+    align-items: center;
+    justify-items: end;
+    
+}
+
 section a img{
     width: 100%;
     height: 737px;
@@ -110,7 +135,7 @@ section a img{
     background: url(.jpg);
 }
 
-.banner{
+.banner_1{
     width: 100%;
     height: 737px;
     background-image: url(../img/Rectangle%202.png);
@@ -118,14 +143,16 @@ section a img{
     background-size: cover;
     left: 3px;
     top: 0px;
-    color: #fff;
+    display: flex;
+    align-items: flex-end;
+    
 }
 
-.text{
-    max-height: 1200px;
-    margin-left: 0px;
-    margin-right: 0px;
-    }
+.banner{
+    margin-bottom: 112px;
+    margin-left: 242px;
+}
+
 
 .banner .text{
     height: 100%;
@@ -133,6 +160,7 @@ section a img{
     flex-direction: column;
     justify-content: flex-end;
 }
+
 section h1{
     width: 548px;
     height: 112px;
@@ -144,7 +172,6 @@ section h1{
     font-size: 56px;
     line-height: 100%;
     color: #696A86;
-    margin-left: 242px;
     margin-bottom: 30px;
 }
 
@@ -159,7 +186,6 @@ section p{
     font-size: 18px;
     line-height: 27px;
     color: #696A86;
-    margin-left: 242px;
     margin-bottom: 30px;
 }
 
@@ -168,10 +194,9 @@ section button{
     height: 60px;
     left: 245px;
     top: 565px;
-    background: #9B9BCA;
+    background: #4C4C81;
     border-radius: 10px;
-    margin-left: 242px;
-    margin-bottom: 112px;
+    border: none;
 }
 
 section button span{
@@ -187,7 +212,65 @@ section button span{
     color: #FFFFFF;
 }
 
+.HM2{
+    display: block;
+}
 
+.b2_title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.b2_title{
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.b2_title h2{
+    width: 322px;
+    height: 39px;
+    left: 639px;
+    top: 5047px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 39px;
+    color: #626780;
+}
+
+.b2_title p{
+    width: 660px;
+    height: 60px;
+    left: 430px;
+    top: 5098px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #626780;
+    text-align: center;
+}
+
+.section_HM2 h3{
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 26px;
+line-height: 100%;
+}
+
+.section2_HM2 p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #626780
+}
 
 
 

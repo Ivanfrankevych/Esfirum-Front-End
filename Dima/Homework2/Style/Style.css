@@ -1,0 +1,246 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    display: inline-block;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 31px;
+    padding-bottom: 25px;
+    position: fixed;
+}
+
+header .container {
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div_logo {
+    display: flex;
+    align-items: center;
+}
+
+.div_logo a {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #505050;
+    text-decoration: none;
+    transition: all .4s;
+}
+
+header .logo {
+    margin-right: 12px;
+}
+
+header .button {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+header ul li {
+    list-style: none;
+}
+
+header li a {
+    text-decoration: none;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #717784;
+    margin-right: 58px;
+    transition: all .4s;
+}
+
+.div_logo a:hover {
+    color: aquamarine;
+}
+
+header li a:hover {
+    color: aquamarine;
+}
+
+.button button {
+    width: 234px;
+    height: 60px;
+    left: 1124px;
+    top: 31px;
+    background: #4C4C81;
+    border-radius: 10px;
+}
+
+.button span {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.banner_1 {
+    width: 100%;
+    height: 737px;
+    background-image: url(../img/Rectangle%202.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 112px;
+}
+
+.banner_1 div {
+    width: 1100px;
+}
+
+.banner_1 h1 {
+    width: 548px;
+    font-family: DM Serif Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 100%;
+    color: #696A86;
+    margin-bottom: 30px;
+}
+
+.banner_1 p {
+    width: 751px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    color: #696A86;
+    margin-bottom: 30px;
+}
+
+.banner_1 a {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    text-decoration: none;
+    border: 1px solid #9B9BCA;
+    padding: 20px 65px;
+    border-radius: 10px;
+    background-color: #4C4C81;
+}
+
+.HM2 {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1080px;
+    background-color: #E5E5E5;
+}
+
+.HM2 .HM2_title div {
+    width: 1100px;
+    margin-bottom: 162px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.HM2_title h2 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 39px;
+    color: #626780;
+}
+
+.HM2_title p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    width: 660px;
+    color: #626780;
+}
+
+
+.HM2 .content_HM2 {
+    width: 1100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.content_HM2 h3 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 100%;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 23px;
+}
+
+.content_HM2 p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #626780;
+    width: 346px;
+}
+
+.content_HM2 div {
+    border: 1px solid#9D9D9D;
+    padding: 60px 51px 115px 52px;
+    border-radius: 10px;
+}
+
+.content_HM2 img {
+    margin-bottom: 53px;
+}
+
+.content_HM2 a {
+    text-decoration: none;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 96px;
+    border: 1px solid#9595C9;
+        
+}
+
+.content_HM2 .border_right{
+    border-top: none;
+}
