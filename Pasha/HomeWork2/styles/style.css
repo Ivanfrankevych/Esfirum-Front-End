@@ -260,6 +260,7 @@ header ul a:hover {
     background: #F01F35;
 }
 
+/*
 .battonProvider {
     font-weight: 600;
     font-size: 18px;
@@ -276,9 +277,10 @@ header ul a:hover {
     position: absolute;
     bottom: 0;
     left: 50%;
-    transform: translateX(-50%)translateY(50%);
+    transform: translateX(-50%) translateY(50%);
 
 }
+*/
 
 .battonProvider:hover {
     color: white;

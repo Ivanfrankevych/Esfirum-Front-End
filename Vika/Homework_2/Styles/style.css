@@ -182,13 +182,20 @@ main .container_text_bestFeature p:nth-child(2) {
 }
 
 main .wrapper {
-    width: 100%;
+/*    position: absolute;*/
+    position: relative;
+    margin-top: 162px;
+    z-index: 5;
+    
+}
+.wrapper .wrap_container{
+    max-width: 973px;
+    margin-right: auto;
+    margin-left: auto;
+     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    position: absolute;
-    margin-top: 162px;
-    z-index: 5;
 }
 
 main .wrapper .wrap {
@@ -232,7 +239,7 @@ main .wrapper .wrap p {
     color: #626780;
 }
 
-main .wrapper .button a{
+main .wrapper .button a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -247,27 +254,41 @@ main .wrapper .button a{
     font-size: 18px;
     line-height: 27px;
     color: #FFFFFF;
-/*    transition-duration: all, .8s;*/
+    transition: all .4s;
 }
 
-main .wrapper .button:hover {
+main .wrapper .button:hover a{
     background-color: #F01F35;
 }
 
 main .ellipse13 {
-    position: relative;
-    margin-top: 156px;
+/*    position: relative;*/
+    position: absolute;
+    top: 0;
+    left: 0;
+/*    margin-top: 156px;*/
     width: 1030px;
     height: 1030px;
     border-radius: 100%;
     background-color: #FFEDEF;
     transform: translateX(-40%);
-    z-index: 0;
+/*    transform: translateX(-50%);*/
+    z-index: -1;
 }
 
 main .image_woman {
-    position: absolute;
+    position: relative;
+    z-index: 7;
     width: 920px;
     height: 920px;
-    transform: translateY(-50%);
+/*    transform: translateY(-50%);*/
+}
+.circle_1{
+    position: absolute;
+    top:205px;
+    right: 2px;
+    width: 88px;
+    height: 88px;
+    border-radius: 100%;
+    background-color: #FFEDEF;
 }
