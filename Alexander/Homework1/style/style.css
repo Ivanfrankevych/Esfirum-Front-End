@@ -1,14 +1,24 @@
+<<<<<<< Updated upstream
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto&display=swap');
 
 * {
+=======
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.container{
+     max-width: 1693px;
+    margin-left: 130px;
+    margin-right: auto; /* если ставить margin 283px как в макете то в связи с рвзмером моего экрана контейнер налазит на контейнер  */
+}
+*{
+>>>>>>> Stashed changes
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-    max-width: 100%;
 }
+<<<<<<< Updated upstream
 
 /*
 header {
@@ -39,10 +49,42 @@ header > div {
 header ul {
     display: flex;
     justify-content: space-between;
-    list-style: none;
-    padding-top: 40px;
-    padding-right: 194px;
+=======
+header {
+    background: rgba(196, 196, 196, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
+header a{
+    text-decoration: none;
+    color: #717784;
+}
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+header .logo{
+    display: flex;
+    align-items: center;
+    
+}
+header .logo img{
+    margin-right: 21px;
+    
+}
+header .dream {
+     font-family: 'Roboto', sans-serif;
+}
+header ul{
+>>>>>>> Stashed changes
+    list-style: none;
+    display: flex;
+    padding-right: 29px;
+}
+<<<<<<< Updated upstream
 
 header ul buton {
     background-color: darkorchid;
@@ -53,15 +95,52 @@ header ul buton {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+=======
+header .navigation{
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
 }
+header ul a{
+    padding-left: 29px;
+    padding-right: 29px;
+}
+header button{
+    background: #9B9BCA;
+    border-radius: 10px; 
+    border: none;
+    outline: none;
+    color: aliceblue;
+    padding: 15px 60px;
+    margin-right: 194px;  
+>>>>>>> Stashed changes
+}
+ 
 
+<<<<<<< Updated upstream
 .banner {
     width: 100%;
     height: 780px;
+=======
+ .maine button{
+    background: #9B9BCA;
+    border-radius: 10px; 
+    border: none;
+    color: aliceblue;
+    padding: 15px 60px;
+     outline: none;
+}
+section{
+>>>>>>> Stashed changes
     background-image: url(../images/Rectangle%202.png);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 737px;
+    padding-bottom:247px;
+    display: flex;
+    align-items: flex-end;
 }
+<<<<<<< Updated upstream
 
 .container {
     max-width: 1200px;
@@ -185,3 +264,18 @@ section p {
     max-width: 751px;
 }
 /*ivan styles end*/
+=======
+section h1{
+    color: #696A86;
+    font-family: 'Roboto', sans-serif;
+    font-size: 56px;
+}
+section p{
+    color: #696A86;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+
+
+>>>>>>> Stashed changes
