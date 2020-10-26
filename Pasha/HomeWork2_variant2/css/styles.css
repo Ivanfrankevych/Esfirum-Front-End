@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Poppins', sans-serif;
+}
+
+a {
+   display: inline-block;
+   text-decoration: none;
+}
+
+header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background: #E5E5E5;
+   background: rgba(196, 196, 196, 0.1);
+   width: 100%;
+   position: fixed;
+   top: 0;
+   left: 0;
+}
+
+.container {
+   width: 1110px;
+   margin: 0px auto;
+}
+
+header .container {
+   display: flex;
+   justify-content: space-between;
+}
+
+
+header .logo,
+.menu {
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+}
+
+.logo img {
+   margin-right: 30px;
+   padding-top: 22px;
+   padding-bottom: 22px;
+}
+
+header p {
+   margin-left: 30px;
+   font-family: 'Roboto', sans-serif;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 22px;
+   line-height: 26px;
+   color: #505050;
+}
+
+header ul {
+   display: flex;
+   list-style: none;
+   margin-left: 30px;
+}
+
+header ul a {
+   padding-right: 30px;
+   padding-left: 30px;
+   color: #717784;
+   font-size: 18px;
+   line-height: 27px;
+   color: #717784;
+   transition: all .4s;
+}
+
+header ul a:hover {
+   color: white;
+}
+
+.batton {
+   display: flex;
+   background: #9B9BCA;
+   padding-left: 67px;
+   padding-right: 67px;
+   padding-top: 16px;
+   padding-bottom: 17px;
+   margin-left: 30;
+   border-radius: 10px;
+   color: #717784;
+   font-size: 18px;
+   line-height: 27px;
+   color: #717784;
+   text-decoration: none;
+   transition: all .4s;
+}
+
+.batton:hover {
+   color: white;
+}
+
+.banner {
+   max-width: 1600px;
+   height: 737px;
+   margin: 0 auto;
+   background-image:
+      url(../img/FotoBanner.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.banner .container {
+   padding-top: 312px;
+}
+
+.banner h1 {
+   margin-bottom: 30px;
+}
+
+.battonBanner {
+   background: #9B9BCA;
+   padding-left: 67px;
+   padding-right: 67px;
+   padding-top: 16px;
+   padding-bottom: 17px;
+   margin-top: 30px;
+   border-radius: 10px;
+   color: #717784;
+   font-size: 18px;
+   line-height: 27px;
+   color: #717784;
+   text-decoration: none;
+   transition: all .4s;
+}
+
+.battonBanner:hover {
+   color: white;
+}
+
+.feature {
+   margin: 162px auto 0 auto;
+   text-align: center;
+   color: #626780;
+   width: 660px;
+}
+
+.feature h2 {
+   font-weight: 500;
+   font-weight: 500;
+   font-size: 26px;
+   line-height: 39px;
+
+}
+
+.feature p {
+   margin-top: 12px;
+   font-weight: normal;
+   font-size: 18px;
+   line-height: 167%;
+}
+
+.customer_provider {
+   width: 973px;
+   height: 569px;
+   margin: 162px auto 0 auto;
+   display: flex;
+   justify-content: space-between;
+
+}
+
+.customer,
+.provider {
+   width: 442px;
+   height: 569px;
+   background: #FFFFFF;
+   box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.1);
+   border-radius: 10px;
+   position: relative;
+   z-index: 5;
+}
+
+.customer img,
+.provider img {
+   margin: 60px 51px 53px 52px;
+}
+
+.customer h2,
+.provider h2 {
+   font-weight: 500;
+   font-size: 26px;
+   line-height: 100%;
+   color: #000000;
+   text-align: center;
+}
+
+.customer p,
+.provider p {
+   width: 346px;
+   font-weight: normal;
+   font-size: 18px;
+   line-height: 30px;
+   text-align: center;
+   margin-top: 22px;
+   margin-left: 48px;
+}
+
+.battonCustomer,
+.battonProvider {
+   font-weight: 600;
+   font-size: 18px;
+   line-height: 27px;
+   background: #9595C9;
+   width: 234px;
+   height: 60px;
+   border-radius: 10px;
+   text-align: center;
+   padding-top: 17px;
+   color: #717784;
+   text-decoration: none;
+   transition: all .4s;
+   position: absolute;
+   bottom: 0;
+   left: 50%;
+   transform: translateX(-50%)translateY(50%);
+
+}
+
+.battonCustomer:hover,
+.battonProvider:hover {
+   color: white;
+   background: #F01F35;
+}
+
+.girl_circles{
+   max-width: 1600px;
+   margin: 30px auto 0 auto;
+   position: relative;
+   z-index: 2;
+}
+
+.circle {
+   width: 1040px;
+   height: 1040px;
+   background: #FFEDEF;
+   border-radius: 50%;
+   position: absolute;
+   top: -77%;
+   left: -33%;
+   z-index: -1;
+}
+
+.smallCircle {
+   width: 26px;
+   height: 26px;
+   background: #FFEDEF;
+   border-radius: 50%;
+   position: absolute;
+   top: 25%;
+   left: 31%;
+
+}
+
+.smallCircle1 {
+   width: 26px;
+   height: 26px;
+   background: #FFEDEF;
+   border-radius: 50%;
+   position: absolute;
+   top: 55%;
+   left: 31%;
+}
+
+.middleCircle {
+   width: 50px;
+   height: 50px;
+   background: #FFEDEF;
+   border-radius: 50%;
+   position: absolute;
+   top: 15%;
+   left: 35%;
+
+}
+
+.middleCircle1 {
+   width: 50px;
+   height: 50px;
+   background: #FFEDEF;
+   border-radius: 50%;
+   position: absolute;
+   top: 57%;
+   left: 37%;
+}
+
+.largeCircle {
+   width: 90px;
+   height: 90px;
+   background: #FFEDEF;
+   border-radius: 50%;
+   position: absolute;
+   top: 10%;
+   left: 42%;
+
+}
+
+.largeCircle1 {
+   width: 90px;
+   height: 90px;
+   background: #FFEDEF;
+   border-radius: 100%;
+   position: absolute;
+   top: 62%;
+   left: 45%;
+}
