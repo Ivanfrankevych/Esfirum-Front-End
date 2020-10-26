@@ -99,19 +99,15 @@ header ul a:hover {
     padding-top: 120px;
     display: flex;
     align-items: flex-start;
-<<<<<<< Updated upstream
     justify-content: space-between;
     padding-top: 120px;
     padding-bottom: 120px;
-=======
     text-align: center;
->>>>>>> Stashed changes
 }
 
 .wrapper .wrap {
     display: flex;
     flex-direction: column;
-<<<<<<< Updated upstream
     width: calc(33.3333% - 63px);
     align-items: center;
     position: relative;
@@ -141,7 +137,6 @@ header ul a:hover {
 }
 .wrapper p {
     font-family: 'Lato', sans-serif;
-=======
     width: 33.333333%;
 }
 .wrapper h3 {
@@ -155,21 +150,20 @@ header ul a:hover {
 wrapper h3 span {
     font-size: 150px;
     line-height: 150%;
-    color: rgba(1, 153 109 0.2)
-    position : absolute
+    color: rgba(1, 153 109 0.2);
+    position : absolute;
     left :0;
     bottom: 0;
     transform: translateX (-55%) translateY(-60)
 }
 .wrapper p{
     font-family: 'lato' , sans-serif;
->>>>>>> Stashed changes
     font-weight: 500;
     font-size: 20px;
     line-height: 150%;
     color: #424242;
-<<<<<<< Updated upstream
     margin-bottom: 40px;
+    width: 100%;
 }
 .wrapper img{
     display: block;
@@ -211,6 +205,7 @@ wrapper h3 span {
 
 
 
+/*
 .wrapper img {
     display: block;
     width: 100%
@@ -237,6 +232,7 @@ wrapper h3 span {
 
 
 
-=======
+
 }
->>>>>>> Stashed changes
+*/
+
