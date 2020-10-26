@@ -75,6 +75,11 @@ header ul a {
     font-size: 18px;
     line-height: 27px;
     color: #717784;
+    transition: all .4s;
+}
+
+header ul a:hover {
+    color: #7177848a;
 }
 
 header ul .contact_us_button {
@@ -87,6 +92,12 @@ header ul .contact_us_button {
     height: 60px;
     background: #9B9BCA;
     border-radius: 10px;
+    transition: all .4s;
+}
+
+header ul .contact_us_button:hover {
+    background-color: #F01F35;
+    color: #FFFFFF;
 }
 
 .container {
@@ -150,8 +161,14 @@ section .container .get_started_button {
     font-size: 18px;
     line-height: 27px;
     color: #FFFFFF;
-
+    transition: all .4s;
 }
+
+section .container .get_started_button:hover {
+    background-color: #F01F35;
+    color: #FFFFFF;
+}
+
 
 main .container_text_bestFeature {
     display: flex;
@@ -182,17 +199,18 @@ main .container_text_bestFeature p:nth-child(2) {
 }
 
 main .wrapper {
-/*    position: absolute;*/
+    /*    position: absolute;*/
     position: relative;
     margin-top: 162px;
     z-index: 5;
-    
+
 }
-.wrapper .wrap_container{
+
+.wrapper .wrap_container {
     max-width: 973px;
     margin-right: auto;
     margin-left: auto;
-     width: 100%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -257,22 +275,22 @@ main .wrapper .button a {
     transition: all .4s;
 }
 
-main .wrapper .button:hover a{
+main .wrapper .button:hover a {
     background-color: #F01F35;
 }
 
 main .ellipse13 {
-/*    position: relative;*/
+    /*    position: relative;*/
     position: absolute;
     top: 0;
     left: 0;
-/*    margin-top: 156px;*/
+    /*    margin-top: 156px;*/
     width: 1030px;
     height: 1030px;
     border-radius: 100%;
     background-color: #FFEDEF;
     transform: translateX(-40%);
-/*    transform: translateX(-50%);*/
+    /*    transform: translateX(-50%);*/
     z-index: -1;
 }
 
@@ -281,14 +299,68 @@ main .image_woman {
     z-index: 7;
     width: 920px;
     height: 920px;
-/*    transform: translateY(-50%);*/
+    z-index: 5;
+    /*    transform: translateY(-50%);*/
 }
-.circle_1{
+
+.circle_1 {
     position: absolute;
-    top:205px;
+    top: 205px;
     right: 2px;
     width: 88px;
     height: 88px;
     border-radius: 100%;
     background-color: #FFEDEF;
 }
+
+.circle_2 {
+    position: absolute;
+    top: 265px;
+    right: 200px;
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    background-color: #FFEDEF;
+}
+
+.circle_3 {
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    left: 522px;
+    top: 322px;
+    border-radius: 100%;
+    background-color: #FFEDEF;
+}
+
+.circle_4 {
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    left: 522px;
+    top: 572px;
+    border-radius: 100%;
+    background-color: #FFEDEF;
+}
+
+.circle_5 {
+    position: absolute;
+    top: 600px;
+    right: 200px;
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    background-color: #FFEDEF;
+}
+
+.circle_6 {
+    position: absolute;
+    top: 655px;
+    right: 2px;
+    width: 88px;
+    height: 88px;
+    border-radius: 100%;
+    background-color: #FFEDEF;
+}
+
+
