@@ -331,10 +331,10 @@ header a:hover::before {
 
 
     .about_us .wrapper {
-            margin-left: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;;
+        margin-left: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     .about_us .wrap span {
