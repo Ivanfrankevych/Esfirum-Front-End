@@ -11,7 +11,7 @@ body{font-family:'Poppins', sans-serif;
      font-weight:400;
      color:#696A86;}
 
-p{margin:0;}
+
 
 
 /* burger */
@@ -20,7 +20,7 @@ p{margin:0;}
         padding: 5px;
         position: absolute;
         left:30px;
-        top: 15px;
+        top:15px;
         display:none;
         cursor:pointer;}
 
