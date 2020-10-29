@@ -235,6 +235,7 @@ header a:hover::before {
     .about_us .wrap {
         width: 45%;
         margin: 0 auto;
+        margin-bottom: 20px;
     }
 
     .about_us .wrap span {
@@ -343,7 +344,7 @@ header a:hover::before {
     }
 
     .about_us .wrap {
-        width: 55%;
+        width: 95%;
         margin: 0 auto;
         padding: 0;
     }
@@ -355,12 +356,5 @@ header a:hover::before {
         color: #000;
         margin-bottom: 6px;
     }
-
-
-
-
-
-
-
 
 }
