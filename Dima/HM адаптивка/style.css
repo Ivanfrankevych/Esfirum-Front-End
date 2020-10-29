@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    display: inline-block;
+}
+
+.container {
+    max-width: 1200px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.button {
+    text-decoration: none;
+    padding: 13px 36px;
+    background: #4985FF;
+    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+    border-radius: 30px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    transition: all .4s;
+    min-width: 200px;
+    text-align: center;
+}
+
+.button:hover {
+    background: #35528e;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid #A1A1A1;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+}
+
+header .container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+}
+
+header a {
+    text-decoration: none;
+    transition: all .4s ease-in;
+    padding: 40px 20px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    color: #FFFFFF;
+    position: relative;
+}
+
+header li:last-child a {
+    padding-right: 0;
+}
+
+header a::before {
+    content: '';
+    width: 0;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: all .4s ease-in-out;
+}
+
+header a:hover::before {
+    width: 100%;
+}
+
+
+
+.banner {
+    background-image: url(images/Rectangle.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding-top: 320px;
+    padding-bottom: 335px;
+}
+
+.banner .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    margin-bottom: 20px;
+}
+
+.banner h1 {
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 1.33;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.about_us {
+    /*    padding: 110px 0 105px;*/
+    padding-top: 110px;
+    padding-bottom: 105px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about_us h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.5;
+    color: #323232;
+    margin-bottom: 50px;
+}
+
+.about_us .description {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    color: #999999;
+    margin-bottom: 70px;
+}
+
+.about_us .wrapper {
+    display: flex;
+    margin-bottom: 55px;
+}
+
+.about_us .wrap {
+    display: flex;
+    align-items: flex-start;
+}
+
+.about_us .wrap span {
+    padding: 25px;
+    border-radius: 100%;
+    border: 1px solid #4985FF;
+    position: relative;
+}
+
+.about_us .wrap span::before {
+    content: '';
+    width: calc(100% + 20px);
+    height: calc(100% + 20px);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #E0E0E0;
+    border-radius: 100%;
+}
+
+.about_us .content {
+    padding-left: 27px;
+    padding-top: 36px;
+    padding-right: 30px;
+}
+
+.about_us .wrap h3 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.25;
+    color: #000000;
+    margin-bottom: 12px;
+}
+
+.about_us .wrap p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #999999;
+}
+
+
+@media screen and (max-width:768px) {
+
+    header a {
+        padding: 25px 12px;
+        font-size: 12px;
+    }
+
+    .banner h1 {
+        font-size: 30px;
+    }
+
+    .about_us h2 {
+        font-size: 30px;
+    }
+
+
+    .about_us .description {
+        font-size: 12px;
+        margin-bottom: 50px;
+    }
+
+
+    .about_us .wrapper {
+        margin-left: 15px;
+    }
+
+    .about_us .wrap span {
+        padding: 10px;
+    }
+
+    .about_us .wrap h3 {
+        font-size: 13px;
+    }
+
+    .about_us .wrap p {
+        font-size: 8px;
+    }
+
+    .about_us .content {
+        padding-left: 15px;
+    }
+
+    .button {
+        padding: 7px 25px;
+        font-size: 12px;
+        max-width: none;
+    }
+}
+
+@media screen and (max-width:570px) {
+    header a {
+        padding: 18px 9px;
+        font-size: 10px;
+    }
+
+    .banner p {
+        font-size: 13px;
+    }
+
+    .banner h1 {
+        font-size: 25px;
+    }
+
+    .about_us h2 {
+        font-size: 22px;
+    }
+
+
+    .about_us .description {
+        font-size: 10px;
+        margin-bottom: 34px;
+    }
+
+
+    .about_us .wrapper {
+        margin-left: 15px;
+    }
+
+    .about_us .wrap span {
+        padding: 5px;
+    }
+
+    .about_us .wrap h3 {
+        font-size: 11px;
+    }
+
+    .about_us .wrap p {
+        font-size: 5px;
+    }
+
+    .about_us .content {
+        padding-left: 8px;
+    }
+
+    .button {
+        padding: 7px 25px;
+        font-size: 12px;
+        max-width: 150pxs;
+    }
+}
+
+@media screen and (max-width:570px) {
+
+    header {
+        display: flex;
+        justify-content: space-around;
+    }
+
+
+
+    header a {
+        padding: 12px 8px;
+        font-size: 6px;
+    }
+
+    .banner p {
+        font-size: 11px;
+        margin-bottom: 8px;
+    }
+
+    .banner h1 {
+        font-size: 18px;
+        margin-bottom: 28px;
+    }
+
+    .about_us h2 {
+        font-size: 15px;
+    }
+
+
+    .about_us .description {
+        font-size: 6px;
+        margin-bottom: 24px;
+    }
+
+
+    .about_us .wrapper {
+            margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;;
+    }
+
+    .about_us .wrap span {
+        padding: 5px;
+    }
+
+    .about_us .wrap h3 {
+        font-size: 11px;
+    }
+
+    .about_us .wrap p {
+        font-size: 5px;
+    }
+
+    .about_us .content {
+        padding-left: 8px;
+    }
+
+    .button {
+        padding: 7px 25px;
+        font-size: 12px;
+        max-width: 128px;
+    }
+}
