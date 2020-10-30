@@ -11,8 +11,10 @@
 
 }
 
+
 @media(max-width:940px)
-{ul > li{margin-left:40px;}
+{
+ul > li{margin-left:40px;}
  
 .banner-title h1{width:100%;}
 
@@ -22,8 +24,6 @@
     display:flex;
     align-items:center;
 }
-
-.contact-btn{margin-right:10px;}
 }
 
 @media(max-width:860px){
@@ -32,7 +32,9 @@
           text-align:center;
           }
 
-
+.contact-btn, .action-btn {
+            background: #9B9BCA;
+            padding: 17px 50px;}
 
 .support{display:flex;
          flex-direction:column;
@@ -139,5 +141,4 @@ header{position:relative;}
   
   .features h2,.support-title h2{font-size:24px;}
  }
-
 
