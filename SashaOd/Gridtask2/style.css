@@ -3,14 +3,13 @@
   box-sizing:border-box;
   }
 
-
+body{background:#000;}
 
 
 .container{margin:100px auto;
            max-width:1100px;
            height:100%;
            padding:50px 30px;
-           background:#fff;
                   }
 
 
@@ -47,7 +46,8 @@
                      color:#fff;
                      padding:10px 20px;
                      background:none;
-                     z-index:3;}
+                     z-index:3;
+                     text-shadow:1px 1px 1px #ccc;}
 
 
 .photo-item img{width:100%;
@@ -88,9 +88,6 @@
  
 }
 
-.gallery .photo-item:nth-child(3){
-  grid-column:5/7;
-  grid-row:1/2;}
 
 
 .gallery .photo-item:nth-child(4){
