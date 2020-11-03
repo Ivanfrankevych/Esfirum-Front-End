@@ -139,3 +139,32 @@ header .transparent_button {
     font-size: 22px;
     margin-bottom: 28px;
 }
+
+.about_us {
+    padding-bottom: 130px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.about_us .left {
+    width: 50%;
+    padding-right: 80px;
+    position: relative;
+}
+
+.about_us .left::before {
+    content: '';
+    width: 50vw;
+    z-index: -1;
+    height: 50%;
+    background: #2F2E2F;
+    position: absolute;
+    bottom: 0;
+    right: 100%;
+    transform: translateX(200px);
+}
+
+.about_us .right {
+    width: 50%;
+    padding-left: 80px;
+}
