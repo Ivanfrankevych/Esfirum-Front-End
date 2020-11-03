@@ -50,3 +50,92 @@ h2 {
     min-width: 300px;
     text-align: center;
 }
+
+.brown_button:hover {
+    background: #776244;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #2F2E2F;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+}
+
+header a {
+    color: #fff;
+}
+
+header a:not(.logo):hover {
+    opacity: .6;
+}
+
+header .logo {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 170px;
+    height: 160px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    padding-left: 260px;
+}
+
+header ul a {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+header .transparent_button {
+    padding: 12px 50px;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    border: 1px solid #fff;
+}
+
+.banner {
+    background-image: url(images/image%2036.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 146px;
+}
+
+.banner .container {
+    display: flex;
+    align-items: center;
+}
+
+.banner .left {
+    width: 50%;
+    color: #191719;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.banner .right {
+    width: 50%;
+}
+
+.banner h1 {
+    margin-bottom: 18px;
+}
+
+.banner p {
+    font-size: 22px;
+    margin-bottom: 28px;
+}
