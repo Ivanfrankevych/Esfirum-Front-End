@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:wght@400;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat',
+        sans-serif;
+}
+
+a {
+    display: inline-block;
+    transition: all .4s;
+    text-decoration: none;
+}
+
+img {
+    display: block;
+}
+
+.container {
+    max-width: 1200px;
+
+    margin-right: auto;
+    margin-left: auto;
+}
+
+header {
+    background-color: #2F2E2F;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+header .container ul {
+    list-style: none;
+    display: flex;
+    padding-left: 260px;
+}
+
+.container a {
+    color: #fff;
+}
+
+header ul a {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.container .logo {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    max-height: 170px;
+    max-width: 160px;
+}
+
+header a:hover {
+    color: aqua;
+}
+
+header .button {
+    border: 1px solid#fff;
+    padding: 12px 50px;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    border: 1px solid #fff;
+}
+
+header .button:hover {
+    background-color: white;
+    color: black;
+}
+
+.reader_choose {
+    background-image: url(/images/BG.png);
+    padding-top: 166px;
+    padding-bottom: 71px;
+    width: 100%;
+    background-size: cover;
+    margin-bottom: 130px;
+}
+
+.reader_choose .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reader_choose .container .left {
+    max-width: 400px;
+    margin-right: 377px;
+}
+
+.reader_choose .left h1 {
+    font-size: 40px;
+    line-height: 49px;
+    color: #191719;
+    padding-bottom: 18px;
+}
+
+
+.reader_choose .left p {
+    font-size: 21px;
+    line-height: 26px;
+    color: #191719;
+    margin-bottom: 58px;
+}
+
+.reader_choose .left .button {
+    border: 1px solid none;
+    background-color: #9A8464;
+    padding: 30px 100px;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.02em;
+    transition: all .4s;
+}
+
+.reader_choose .left .button:hover {
+    background-color: green;
+
+}
+
+.catalog h2 {
+    font-size: 42px;
+    line-height: 49px;
+    padding-bottom: 60px;
+}
+
+.catalog .menu {
+    list-style: none;
+    display: flex;
+    padding-bottom: 60px;
+}
+
+.catalog .menu li {
+    border: 1px solid#191719;
+    padding: 30px 68px;
+    background-color: #fff;
+    transition: all .4s;
+}
+
+.catalog .menu li:hover {
+    background-color: #9A8464;
+}
+
+.catalog .menu a {
+    color: #191719;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    line-height: 22, 05px;
+    font-weight: 600;
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3);
+    grid-gap: 25px;
+    padding-bottom: 60px;
+
+}
+
+.grid div {
+    width: 275px;
+    height: 526px;
+}
+
+.grid div img {
+    padding-bottom: 30px;
+}
+
+.grid div h5 {
+    font-size: 16px;
+    line-height: 24px;
+    color: #C4C4C4;
+    padding-bottom: 10px;
+}
+
+.grid div strong {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #191719;
+}
+
+.div_button {
+    display: flex;
+    justify-content: center;
+}
+
+.catalog .container .button {
+    border: 1px solid#9A8464;
+    background-color: #9A8464;
+    padding: 25px 40px;
+    margin
+    transition: all .4s;
+}
+
+.catalog .container .button:hover{
+    background-color: darkorchid;
+}
