@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* font-family: 'Quattrocento Sans', sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    display: inline-block;
+    transition: all .4s;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+img {
+    display: block;
+}
+h2 {
+    font-size: 42px;
+    line-height: 1.2;
+}
+header ul{
+    list-style: none;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #2F2E2F;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    z-index: 999;
+   
+}
+ 
+
+header .container {
+    
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+     
+}
+header a:not(.logo):hover {
+    opacity: .6;
+}
+
+header .logo {
+    position: absolute;
+    left: 335px;
+    top: 0;
+    width: 170px;
+    height: 160px;
+}
+header ul {
+    list-style: none;
+    display: flex;
+    padding-left: 550px;
+}
+
+header ul a {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 16px;
+   line-height: 19px;
+}
+
+header .entrance_button {
+ padding: 10px 70px;
+ color: #FFFFFF;
+ font-size: 14px;
+ line-height: 1.2;
+ letter-spacing: 0.02em;
+ background: #2F2E2F;
+ text-align: center;
+    border: 1px solid #FFFFFF;
+    margin-right: 375px;
+}
+header .entrance_button :hover {
+    background: #FFFFFF;
+    color: #FFFFFF;
+}
+
+
+ 
