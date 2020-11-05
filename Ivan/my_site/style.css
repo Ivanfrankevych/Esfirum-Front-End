@@ -23,6 +23,7 @@ a {
 
 img {
     display: block;
+    width: 100%;
 }
 
 h1,
@@ -83,7 +84,7 @@ header a:not(.logo):hover {
 
 header .logo {
     position: absolute;
-    left: 0;
+    left: 20px;
     top: 0;
     width: 170px;
     height: 160px;
@@ -172,7 +173,6 @@ header .transparent_button {
 }
 
 .about_us h2 {
-    font-size: 42px;
     line-height: 1.2;
     margin-bottom: 30px;
 }
@@ -313,6 +313,28 @@ header .transparent_button {
 
 .news .item > img {
     margin-bottom: 30px;
+    position: relative;
+}
+
+.news .item::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    z-index: 9999;
+    top: 80px;
+    width: 0;
+    height: 0;
+    transform: translateX(-20px);
+    border-style: solid;
+    border-width: 27px 0 27px 47px;
+    border-color: transparent;
+    border-left-color: #fff;
+    opacity: 0;
+    transition: all .4s;
+}
+
+.news .item:hover::before {
+    opacity: 1;
 }
 
 .news .item p {
@@ -333,4 +355,206 @@ header .transparent_button {
     font-size: 15px;
     line-height: 22px;
     padding-left: 10px;
+}
+
+.news strong {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 26px;
+    display: block;
+}
+
+@media screen and (max-width:1100px) {
+    h2 {
+        font-size: 36px;
+    }
+
+    header ul {
+        padding-left: 200px;
+    }
+
+    .about_us .left {
+        padding-right: 40px;
+    }
+
+    .about_us .right {
+        padding-left: 40px;
+    }
+}
+
+@media screen and (max-width:992px) {
+    header ul {
+        position: fixed;
+        right: 0;
+        flex-direction: column;
+        top: 84px;
+        background: #2F2E2F;
+        padding: 40px;
+        height: calc(100vh - 84px);
+        transform: translateX(100%);
+        transition: all .4s;
+    }
+
+    header ul.active {
+        transform: translateX(0);
+    }
+
+    header ul a {
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+
+    header .container {
+        justify-content: center;
+    }
+
+    header .burger {
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header .burger span {
+        width: 40px;
+        height: 1px;
+        background-color: #fff;
+        position: relative;
+        transition: all .4s;
+    }
+
+    header .burger.active span {
+        width: 0;
+    }
+
+    header .burger span::before,
+    header .burger span::after {
+        content: '';
+        width: 40px;
+        height: 1px;
+        background-color: #fff;
+        position: absolute;
+        left: 50%;
+        top: 0;
+        transition: all .4s;
+    }
+
+    header .burger span::before {
+        transform: translateY(-9px) translateX(-50%);
+    }
+
+    header .burger.active span::before {
+        transform: translateY(0) translateX(-50%) rotate(45deg);
+    }
+
+    header .burger span::after {
+        transform: translateY(9px) translateX(-50%);
+    }
+
+    header .burger.active span::after {
+        transform: translateY(0) translateX(-50%) rotate(-45deg);
+    }
+
+    .banner .container {
+        flex-wrap: wrap;
+    }
+
+    .banner .left,
+    .banner .right,
+    .about_us .left,
+    .about_us .right {
+        width: 100%;
+    }
+
+    .banner {
+        padding-top: 200px;
+    }
+
+    .banner .left {
+        align-items: center;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .banner .right {
+        display: flex;
+        justify-content: center;
+    }
+
+    .banner img {
+        max-width: 500px;
+    }
+
+    .about_us {
+        flex-direction: column-reverse;
+        padding-bottom: 0;
+    }
+
+    .about_us .right {
+        padding-left: 0;
+        padding-top: 60px;
+    }
+
+    .about_us .left {
+        display: flex;
+        justify-content: center;
+    }
+
+    .about_us .left img {
+        max-width: 500px;
+    }
+
+}
+
+@media screen and (max-width:600px) {
+
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    header .logo {
+        width: 60px;
+        height: 60px;
+    }
+
+    header .logo img {
+        width: 100%;
+    }
+
+    header ul {
+        width: 100%;
+        align-items: center;
+    }
+
+    .banner {
+        padding-top: 120px;
+    }
+
+    .banner p {
+        font-size: 16px;
+    }
+
+    .about_us h2 {
+        margin-bottom: 16px;
+    }
+
+    .about_us p {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    .about_us .transparent_button {
+        margin-top: 10px;
+    }
 }
