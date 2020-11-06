@@ -551,31 +551,29 @@ footer .container{
 }
 
 
-.footer-contacts span{display:block;
+footer a:not(.transparent_button){
+    display:block;
     color:#fff;
     opacity:0.6;
-   }
-
-
-
-
-.footer-nav a {color:#fff;
-    opacity:0.6;}
-
-
+   } 
+ 
+.footer-nav{display:flex;
+            flex-wrap:wrap;
+            }
+.footer-nav li{width:50%;}
 
 footer .logo img{width:170px;
               height:160px;}
 
 
-.footer-contacts svg{opacity:0.6;}
 
 footer .transparent_button {
     padding: 12px 50px;
     font-size: 14px;
     letter-spacing: 0.02em;
     border: 1px solid #fff;
-    color:#fff;}
+    color:#fff;
+   }
 
-
+footer .transparent_button:hover{opacity:.6;}
 
