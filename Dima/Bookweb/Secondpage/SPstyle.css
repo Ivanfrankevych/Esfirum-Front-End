@@ -209,10 +209,101 @@ header .button:hover {
     border: 1px solid#9A8464;
     background-color: #9A8464;
     padding: 25px 40px;
-    margin
-    transition: all .4s;
+    margin transition: all .4s;
+
 }
 
-.catalog .container .button:hover{
+.catalog .container .button:hover {
     background-color: darkorchid;
 }
+
+.contacts {
+    background-image: url(/images/image%2069.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 130px;
+}
+
+.contacts .cHead h2 {
+    padding-top: 123px;
+    font-size: 42px;
+    line-height: 49px;
+    text-align: center;
+    color: #191719;
+    padding-bottom: 60px;
+}
+
+
+.contacts .contacts_content {
+    background-color: #fff;
+    max-width: 1170px;
+    display: flex;
+}
+
+.contacts .contacts_content .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contacts_content .left h5 {
+    padding-left: 50px;
+    padding-bottom: 14px;
+
+}
+
+.contacts_content .left a {
+    padding-left: 50px;
+    font-size: 22px;
+    line-height: 26px;
+    color: #191719;
+    text-decoration: none;
+    padding-bottom: 30px;
+
+}
+
+.contacts_content .left h5 {
+    font-size: 18px;
+    line-height: 21px;
+    color: #191719;
+}
+
+.contacts_content .left .social {
+    display: flex;
+    padding-left: 40px;
+}
+
+.contacts_content .social img {
+    padding-left: 10px;
+}
+
+footer {
+    width: 100%;
+    background-color: #2F2E2F;
+    display: flex;
+    justify-content: center;
+}
+
+footer .footer_div {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    left: 0;
+    bottom: 0;
+}
+
+footer .footer_div .logo {
+    position: absolute;
+
+}
+
+footer .footer_div .footer_list {
+    display: flex;
+    padding-top: 60px;
+    left: 0;
+    bottom: -28px;
+}
+
