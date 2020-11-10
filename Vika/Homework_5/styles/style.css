@@ -717,8 +717,8 @@ header .transparent_button {
 .address .item span {
     margin-bottom: 30px;
     font-size: 22px;
-line-height: 26px;
-color: #191719;
+    line-height: 26px;
+    color: #191719;
 }
 
 footer {

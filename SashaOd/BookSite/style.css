@@ -10,14 +10,16 @@ sans-serif;
 * {
     margin: 0;
     padding: 0;
-    box-sizing:border-box;
+    box-sizing: border-box;
     font-family: 'Montserrat',
         sans-serif;
 }
 
-img{display:block;
-    max-width:100%;
-    height:auto;}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 
 
 a {
@@ -26,7 +28,9 @@ a {
     text-decoration: none;
 }
 
-li{list-style-type:none;}
+li {
+    list-style-type: none;
+}
 
 h1,
 h2 {
@@ -40,7 +44,7 @@ h2 {
     padding-right: 15px;
     margin-right: auto;
     margin-left: auto;
-  
+
 }
 
 .brown_button {
@@ -67,8 +71,8 @@ header {
     background-color: #2F2E2F;
     padding-top: 20px;
     padding-bottom: 20px;
-    z-index:999;
-  
+    z-index: 999;
+
 }
 
 header .container {
@@ -105,7 +109,7 @@ header ul a {
     padding-right: 15px;
 }
 
- header .transparent_button {
+header .transparent_button {
     padding: 12px 50px;
     font-size: 14px;
     letter-spacing: 0.02em;
@@ -395,24 +399,26 @@ Books page Styles */
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 146px;
-    margin-bottom:37px;}
+    margin-bottom: 37px;
+}
 
 
 
 .books-banner .container {
     display: flex;
-    align-items: center;}
+    align-items: center;
+}
 
 
 .books-banner h1 {
-        margin-bottom: 18px;
-    }
-    
+    margin-bottom: 18px;
+}
+
 .books-banner p {
-        font-size: 22px;
-        margin-bottom: 28px;
-    }
-    
+    font-size: 22px;
+    margin-bottom: 28px;
+}
+
 
 
 
@@ -426,21 +432,33 @@ Books page Styles */
 }
 
 
-.books-banner .right{width:50%;
-                     padding-left:80px;}
+.books-banner .right {
+    width: 50%;
+    padding-left: 80px;
+}
 
 
 
 /* Books catalog */
+<<<<<<< Updated upstream
 .books-list h2{
                margin-bottom:60px;}
+=======
+.books-list h2 {
+    font-size: 42px;
+    margin-bottom: 60px;
+}
+>>>>>>> Stashed changes
 
 
-.books-list-tabs{display:flex;
-                 margin-bottom:60px;
-                 text-align:center;}
+.books-list-tabs {
+    display: flex;
+    margin-bottom: 60px;
+    text-align: center;
+}
 
 
+<<<<<<< Updated upstream
 .books-list-tabs a{
     width:233px;
     font-weight:600;
@@ -454,59 +472,92 @@ Books page Styles */
 .books-list-tabs .active{background: #9A8464;
         color:#fff;
         }
+=======
+.books-list-tabs a {
+    min-width: 233px;
+    font-weight: 600;
+    padding: 22px 40px;
+    font-size: 18px;
+    color: #191719;
+    border: 1px solid #191719;
+}
+
+
+.books-list-tabs .active {
+    background: #9A8464;
+    color: #fff;
+}
+
+>>>>>>> Stashed changes
 
   .books-list-tabs a:hover {background:#9A8464;
                             color:#fff;}
 
-.books-list-catalog{display:grid;
-                    grid-template-columns:repeat(4,1fr);
-                    grid-row-gap:60px;
-                    grid-column-gap:26px;
-                    margin-bottom:60px;}
-
-
-.books-list-catalog .book-item{font-family:'Roboto',
-        sans-serif;}
-
-
-
-.book-item img{margin-bottom:30px;
-               object-fit:cover;
-               
-               }
-
-.book-item p{font-size:14px;
-                  color:#C4C4C4;
-                  margin-bottom:10px;
+.books-list-catalog {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-row-gap: 60px;
+    grid-column-gap: 26px;
+    margin-bottom: 60px;
 }
 
-.book-item h3{font-size:16px;
-                       margin-bottom:20px;}
 
-.book-item span{font-weight:700;
-                     font-size:30px;}
+.books-list-catalog .book-item {
+    font-family: 'Roboto',
+        sans-serif;
+}
 
-.books-catalog-btn{display:flex;
-                   justify-content:center;
-                   margin-bottom:174px;}
+
+
+.book-item img {
+    margin-bottom: 30px;
+    object-fit: cover;
+
+}
+
+.book-item p {
+    font-size: 14px;
+    color: #C4C4C4;
+    margin-bottom: 10px;
+}
+
+.book-item h3 {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.book-item span {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.books-catalog-btn {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 174px;
+}
 
 
 /* Contacts */
 
-.contacts{ background-image: url('books-img/contact-bg.jpg');
+.contacts {
+    background-image: url('books-img/contact-bg.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    min-height:700px;
-    padding-top:42px;
-    padding-bottom:131px;
-    
+    min-height: 700px;
+    padding-top: 42px;
+    padding-bottom: 131px;
+
 }
 
-.contacts h2{margin-bottom:52px;
-              text-align:center;}
+.contacts h2 {
+    margin-bottom: 52px;
+    text-align: center;
+}
 
 
+<<<<<<< Updated upstream
 .contacts .container{
   display:flex;
   align-items:center;
@@ -556,11 +607,43 @@ Books page Styles */
 
 
 
+=======
+.contacts .container {
+    display: flex;
+    align-items: center;
+    background: #FFF;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+    min-height: 547px;
+    padding-left: 55px;
+}
 
-.contacts-details h4{font-size:18px;
-                     margin-bottom:14px;}
+
+.contacts-map {
+    width: 60%;
+}
 
 
+.contacts-map img {
+    object-fit: contain;
+}
+
+
+
+.contacts-details {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+>>>>>>> Stashed changes
+
+.contacts-details h4 {
+    font-size: 18px;
+    margin-bottom: 14px;
+}
+
+
+<<<<<<< Updated upstream
 .contacts-details  a{margin-bottom:30px;
                     font-size:22px;
                      color:#191719;
@@ -593,6 +676,44 @@ footer a:not(.transparent_button){
    } 
  
 footer svg{opacity:.6;}
+=======
+.contacts-details span {
+    margin-bottom: 30px;
+    font-size: 22px;
+}
+
+
+
+footer {
+    width: 100%;
+    background: #2F2E2F;
+    padding-top: 60px;
+}
+
+
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+
+
+.footer-contacts span {
+    display: block;
+    color: #fff;
+    opacity: 0.6;
+}
+
+
+
+
+.footer-nav a {
+    color: #fff;
+    opacity: 0.6;
+}
+>>>>>>> Stashed changes
 
 
 .footer-nav{display:flex;
@@ -600,20 +721,37 @@ footer svg{opacity:.6;}
             }
 .footer-nav li{width:50%;}
 
+<<<<<<< Updated upstream
 footer .logo {width:170px;
               height:160px;
               position:relative;
               top:-20px}
 
 
+=======
+footer .logo img {
+    width: 170px;
+    height: 160px;
+}
+
+
+.footer-contacts svg {
+    opacity: 0.6;
+}
+>>>>>>> Stashed changes
 
 footer .transparent_button {
     padding: 12px 50px;
     font-size: 14px;
     letter-spacing: 0.02em;
     border: 1px solid #fff;
+<<<<<<< Updated upstream
     color:#fff;
    }
 
 footer .transparent_button:hover{opacity:.6;}
 
+=======
+    color: #fff;
+}
+>>>>>>> Stashed changes
