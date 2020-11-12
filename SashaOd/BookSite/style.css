@@ -16,8 +16,9 @@ sans-serif;
 }
 
 img{display:block;
-    max-width:100%;
-    height:auto;}
+    width:100%;
+    height:100%;
+    object-fit:cover;}
 
 
 a {
@@ -461,7 +462,7 @@ Books page Styles */
 .books-list-catalog{display:grid;
                     grid-template-columns:repeat(4,1fr);
                     grid-row-gap:60px;
-                    grid-column-gap:26px;
+                    grid-column-gap:22px;
                     margin-bottom:60px;}
 
 
@@ -566,7 +567,7 @@ Books page Styles */
                      color:#191719;
                     }
 
-
+/* Footer */
 
      footer{width:100%;
       background: #2F2E2F;
@@ -603,7 +604,7 @@ footer svg{opacity:.6;}
 footer .logo {width:170px;
               height:160px;
               position:relative;
-              top:-20px}
+              top:-30px}
 
 
 
